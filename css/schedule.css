@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#main{width: 100%; height: auto;  }
+
+#main .cont{width: 100%; height: auto; padding-top: 80px; position: relative;}
+
+#main .cont .slick{width: 100%; overflow: hidden;}
+
+#main .cont .bg_img{width: 100%; height: 500px;  background-size: cover; background-position: 50% 50%;}
+
+#main .cont  .bg_img:nth-child(1){background-image: url(../img/studio_04_01.jpg); background-position: 70% 30%;}
+
+#main .cont .wrap{max-width: 1300px; height: 100%; margin: 0 auto;  text-align: center; }
+
+#main .cont .wrap h1{ font-size: 48px; color:#ddd; text-shadow:0 0 4px rgba(0,0,0,0.8); line-height: 500px;}
+
+
+/* calendar */
+#title {
+    width: 100%; height: auto;
+    background-image: url(../img/bg.png), url(../img/bg_03.png);
+    background-repeat: no-repeat;
+    background-size: auto 280px, auto 200px;
+    background-position: 0 15%, 100% 100%;
+    background-attachment: fixed;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title h3 {font-size: 28px; color: #333; font-weight: normal;}
+
+#calendar{max-width: 1300px; height: 850px; margin:100px auto;}
+
+.fc-daygrid-day-frame{height: 150px; }
+
+@media (max-width:1018px){
+    #title{ background-image: url();}
+
+    #title .cont{padding: 100px 10px;}
+    #title .cont .cont_part{width: 100%;}
+    
+}
+
+@media (max-width:869px){
+    .fc-daygrid-day-frame{height: 116px;}
+    
+
+  
+   
+}
+
+@media (max-width:352px){
+    .fc .fc-button {padding: -0.6em 0.65em;}
+    .fc .fc-button .fc-icon{font-size: 1.0em;}
+    .fc .fc-toolbar{display: block;}
+}

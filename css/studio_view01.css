@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+#main{width: 100%; height: auto;  }
+
+#main .cont{width: 100%; height: auto; padding-top: 80px; position: relative;}
+
+#main .cont .slick{width: 100%; overflow: hidden;}
+
+#main .cont .bg_img{width: 100%; height: 500px;  background-size: cover; background-position: 50% 50%;}
+
+#main .cont  .bg_img:nth-child(1){background-image: url(../img/studio_04_01.jpg); background-position: 70% 30%;}
+
+#main .cont .wrap{max-width: 1300px; height: 100%; margin: 0 auto;  text-align: center; padding-top: 199px;}
+
+#main .cont .wrap h1{ font-size: 48px; color:#ddd; text-shadow:0 0 4px rgba(0,0,0,0.8);}
+
+#main .cont .wrap p{font-size: 20px; color: #ddd;  text-shadow:0 0 4px rgba(0,0,0,0.8);}
+
+
+/* view */
+#view{
+    width: 100%; height: auto;
+    background-image: url(../img/bg_04.jpg), url(../img/bg_06.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 310px, auto 230px;
+    background-position: 0 15%, 100% 110%;
+    background-attachment: fixed;
+    padding-bottom: 150px;
+}
+
+
+#view{width: 100%; padding: 100px 0 60px;}
+#view .cont{max-width: 1300px; height: auto; margin: 0 auto;}
+
+#view .cont .title{text-align: center; }
+#view .cont .title h3{font-size: 28px; color:#373735;  font-weight: normal; margin-bottom: 25px; display: inline-block;}
+
+#view .cont .cont_part{width: 100%; margin-bottom: 100px;}
+#view .cont .cont_part .room_title{margin-top: 10px; display: flex; }
+
+#view .cont .cont_part .room_title h3{font-size: 22px; margin-bottom: 25px; margin-top: 50px; background-color: #fff; padding: 50px 40px; border-radius: 20px;word-break: keep-all;}
+#view .cont .cont_part .room_title p{font-size: 25px; margin-bottom: 60px; background-color: #fff; padding: 25px 40px; border-radius: 20px; word-break: keep-all;}
+
+/* room img */
+
+#view .room_map{width: 258px; height: 600px; margin: 0 auto;}
+
+#view  .room_img{width: 100%; height: 100%; background-image: url(../img/main_01.png); background-size: cover; background-position: 50% 50%;}
+
+
+#view .cont .cont_part .bg{display: flex; justify-content: space-between; flex-wrap: wrap; width: 100%; height: auto; padding-top: 40px;  }
+
+#view .cont .cont_part .bg .bg_img{ margin-bottom: 50px;  box-shadow: 3px 3px 10px rgba(0,0,0, 0.3); border-radius: 20px;  overflow: hidden;}
+
+#view .cont .cont_part .bg .bg_img .img{width: 500px; height: 300px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;   }
+
+#view .cont .cont_part .bg .bg_img:nth-child(1) .img{background-image: url(../img/main_01.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(2) .img{background-image: url(../img/main_02.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(3) .img{background-image: url(../img/main_04.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(4) .img{background-image: url(../img/main_03.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(5) .img{background-image: url(../img/main_05.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(6) .img{background-image: url(../img/studio_01.jpg);}
+
+/*  #pop  */
+#pop{ }
+#pop ul{max-width: 1300px; margin: 0 auto; }
+#pop ul li{width: 320px; height: auto; padding: 0 10px 20px; margin: 0 auto; text-align: center;}
+#pop ul li a{display: block; width: 100%; height: 400px; overflow: hidden;box-shadow: 3px 3px 10px rgba(0,0,0, 0.3); border-radius: 20px;}
+#pop ul li a .img{width: 100%; height: 100%; background-size: contain; background-repeat: no-repeat; background-position: 50% 50%; background-image: url(../img/studio_07.jpg);}
+
+
+#pop .title{width: 100%; text-align: center;}
+#pop .title h3{font-size: 25px; margin-bottom: 50px; }
+
+.dark{position: fixed; top:0; left:0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: -1; opacity: 0;}
+.dark.active{z-index: 1000; opacity: 1; transition: opacity 0.5s;  }
+
+.popup{position: fixed; top:50%; left:50%; transform: translate(-50%, -50%); width: 500px; height: 75%; z-index: -1; opacity: 0; transition: opacity 0.5s;}
+
+.popup.active{z-index: 1001; opacity: 1;}
+
+.popup .close{position: absolute; top:-50px; right:-50px; color:#fff; font-size: 40px; line-height: 1; cursor: pointer;}
+.popup .video_space{width: 100%; height: 100%; position: relative; overflow: hidden;  border-radius: 30px;}
+.popup .video_space video{width: 100%; height: 150%; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
