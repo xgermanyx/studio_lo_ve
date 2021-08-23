@@ -148,7 +148,7 @@ footer .wrap .copyrights{padding-top: 20px; line-height: 20px; font-size: 14px; 
 }
 
 @media (max-width:767px){ 
-    .b{font-family: 'Nanum Pen Script', serif;}
+    .b{font-family: 'Nanum Pen Script', serif; word-break: keep-all;}
 }
 
 @media (max-width:560px){ 
