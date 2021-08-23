@@ -53,7 +53,7 @@
    
 }
 
-@media (max-width:562px){
+@media (max-width:767px){
     #guide .cont h4{font-size: 18px;}
     #guide .cont .cont_part h3{font-size: 15px;}
     #guide .cont p{font-size: 17px;}
