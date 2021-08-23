@@ -7,6 +7,7 @@
     font-family:NanumGaRamYeonGgoc;
     src:url(NanumGothic.eot);
     src:local(※), url(NanumGaRamYeonGgoc.woff) format(‘woff’)}
+    body{font-family: 'Nanum GaRamYeonGgoc';}
     .b{font-family: 'Nanum GaRamYeonGgoc';}
 
 

@@ -106,7 +106,7 @@
 #cont_01 article:nth-child(2) .img:hover {transform: scale(1.1);}
 
 #cont_01 article:nth-child(2) .content .cont_box:nth-child(1) .img_cont .img{background-image: url(../img/studio_04_.jpg); background-position: 50% 60%;}
-#cont_01 article:nth-child(2) .content .cont_box:nth-child(2) .img_cont .img{background-image: url(../img/studio_09.jpg); background-position: 50% 60%;}
+#cont_01 article:nth-child(2) .content .cont_box:nth-child(2) .img_cont .img{background-image: url(../img/cafe_02.jpg); background-position: 50% 60%;}
 #cont_01 article:nth-child(2) .content .cont_box:nth-child(3) .img_cont .img{background-image: url(../img/studio_08.jpg); background-position: 50% 70%;}
 
 
