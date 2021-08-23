@@ -53,11 +53,11 @@
 
 #view .cont .cont_part .bg .bg_img .img{width: 500px; height: 300px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;   }
 
-#view .cont .cont_part .bg .bg_img:nth-child(1) .img{background-image: url(../img/studio_02.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(1) .img{background-image: url(../img/cafe_02.jpg);}
 #view .cont .cont_part .bg .bg_img:nth-child(2) .img{background-image: url(../img/studio_04_.jpg);}
-#view .cont .cont_part .bg .bg_img:nth-child(3) .img{background-image: url(../img/studio_05.jpg);}
-#view .cont .cont_part .bg .bg_img:nth-child(4) .img{background-image: url(../img/studio_09.jpg);}
-#view .cont .cont_part .bg .bg_img:nth-child(5) .img{background-image: url(../img/main_05.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(3) .img{background-image: url(../img/cafe_05.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(4) .img{background-image: url(../img/cafe_04.jpg);}
+#view .cont .cont_part .bg .bg_img:nth-child(5) .img{background-image: url(../img/cafe_03.jpg);}
 #view .cont .cont_part .bg .bg_img:nth-child(6) .img{background-image: url(../img/garden.jpg);}
 
 /*  #pop  */

@@ -23,4 +23,5 @@
     .popup .video_space {width: 75%; margin: 0 auto;}
     .popup .video_space video{width: 100%;}
     .popup {width: 100%;}
+    .popup .close{right: 18px;}
 }
