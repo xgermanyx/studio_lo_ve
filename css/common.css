@@ -1,13 +1,12 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
-@import url('NanumGaRamYeonGgoc.woff2'); 
-@import url('NanumGaRamYeonGgoc.woff'); 
+
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;700&display=swap');
 
 @font-face{ 
-    font-family:ng;
+    font-family:NanumGaRamYeonGgoc;
     src:url(NanumGothic.eot);
-    src:local(※), url(NanumGaRamYeonGgoc.woff) format(‘woff’) }
+    src:local(※), url(NanumGaRamYeonGgoc.woff) format(‘woff’)}
     .b{font-family: 'Nanum GaRamYeonGgoc';}
 
 
