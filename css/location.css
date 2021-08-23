@@ -60,6 +60,9 @@
     #location .location h3{width: 80%;}
 }
 
-@media (max-width:810px){
+@media (max-width:580px){
     #location .cont_part #map{width: 100%;}
+    #location .location h3{font-size: 15px;}
+    #location .location p{font-size: 17px; }
+
 }
