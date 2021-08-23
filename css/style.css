@@ -128,9 +128,9 @@
 
 @media (max-width:767px){
     #main .cont .wrap h1{font-size: 33px;}
-    #cont_01 article:nth-child(1) .title p{font-size: 18px;}
-    #cont_01 article:nth-child(1) .content .cont_box .txt_cont p{font-size: 18px;}
-    #cont_01 article:nth-child(2) .content .cont_box p{font-size: 18px;}
+    #cont_01 article:nth-child(1) .title p{font-size: 22px;}
+    #cont_01 article:nth-child(1) .content .cont_box .txt_cont p{font-size: 22px;}
+    #cont_01 article:nth-child(2) .content .cont_box p{font-size: 22px;}
 }
 
 @media (max-width:670px){
