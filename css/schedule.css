@@ -55,6 +55,9 @@
     .fc table {
         font-size: 0.1em;
     }
+    .fc-event{
+        font-size: 0.9em;
+    }
 }
 
 @media (max-width:352px){
