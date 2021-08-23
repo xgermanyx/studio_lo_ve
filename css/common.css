@@ -148,7 +148,7 @@ footer .wrap .copyrights{padding-top: 20px; line-height: 20px; font-size: 14px; 
 }
 
 @media (max-width:767px){ 
-    /* .b{font-family: 'Hanna', serif;} */
+    .b{font-family: 'Hanna', serif;}
 }
 
 @media (max-width:560px){ 
