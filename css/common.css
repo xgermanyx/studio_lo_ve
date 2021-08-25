@@ -6,15 +6,6 @@
 @import url('http://fonts.googleapis.com/earlyaccess/hanna.css');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;700&display=swap');
 
-@font-face {
-    font-family: 'Nanum GaRamYeonGgoc';
-    src: url('NanumGaRamYeonGgoc.woff2') format('woff2'),
-        url('NanumGaRamYeonGgoc.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 /*
 font-family: 'Great Vibes', cursive;  =>  강조폰트
@@ -32,7 +23,7 @@ a{text-decoration: none;}
 
 .tit_font{font-family: 'Great Vibes', cursive;}
 .a{font-family: 'Libre Baskerville', serif;}
-.b{font-family: 'Nanum GaRamYeonGgoc'}
+.b{font-family: 'Nanum Pen Script', serif; word-break: keep-all;}
 
 
 

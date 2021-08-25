@@ -31,7 +31,7 @@
 
 
 #location{width: 100%; }
-#location .cont{max-width: 1300px; height: auto; margin: 0 auto;}
+#location .cont{max-width: 1300px; height: auto; margin: 0 auto; padding: 100px 5px;}
 
 #location .cont .title{text-align: center; margin-bottom: 80px;}
 #location .cont .title h3{font-size: 28px; color:#373735;  font-weight: normal; margin-bottom: 25px; display: inline-block;}
